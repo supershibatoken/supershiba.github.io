@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Super Shiba</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-topline">
+				<div class="header-topline__logo">
+					<img src="img/shiba_logo.png" alt="Super Shiba">
+					<span>Super Shiba</span>
+				</div>
+				<ul class="header-topline__menu">
+					<li class="header-topline__menu__item"><a href="/" class="header-topline__menu__item--link"><img src="img/home_menu_icon.svg" alt=""></a></li> 
+					<li class="header-topline__menu__item"><a href="#why" class="header-topline__menu__item--link">About</a></li>
+					<li class="header-topline__menu__item"><a href="#tokenomics" class="header-topline__menu__item--link">Tokenomics</a></li>
+					<li class="header-topline__menu__item"><a href="#roadmap" class="header-topline__menu__item--link">Roadmap</a></li>
+					<li class="header-topline__menu__item"><a href="#" class="header-topline__menu__item--link">Сhart</a></li>
+					<li class="header-topline__menu__item"><a href="#" class="header-topline__menu__item--link last">BUY NOW!</a></li>
+				</ul>
+				<div class="menu-burger__header" onclick="openNav()">
+					<span></span>
+				</div>
+
+					<div id="myNav" class="overlay">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					
+						<div class="overlay-content">
+						<a href="/">Home</a>
+						<a href="#why">About</a>
+						<a href="#tokenomics">Tokenomics</a>
+						<a href="#roadmap">Roadmap</a>
+						<a href="#">Сhart</a>
+						<a href="#" class="last">BUY NOW!</a>
+						</div>
+					
+					</div>
+					
+			</div>
+
+			<div class="header_content" id="header_content">
+				<div class="header_content__left">
+					<h1 class="header_content__left__title" data-aos="zoom-out-down">Super Shiba</h1>
+					<div class="header_content__left__subtitle" data-aos="fade-up">THE FIRST SUPERHERO SHIBA </div>
+					<div class="header_content__left__desc" data-aos="fade-up">
+						Super Shiba is a superhero meme token with a charitable twist, powering the development
+						of next-gen crypto finance tools.<br> With <b>$SUPERSHIBA</b> you can have abundance, community, 
+						and support the causes you care about.</div>
+					<div class="header__buttons">
+						<a href="#"><button class="buy" data-aos="fade-up"><img src="img/buy_now_icon.png" alt=""> Buy now</button></a>
+						<a href="#"><button class="telegram" data-aos="fade-up"><img src="img/telegram.png" alt=""> Join Telegram</button></a>
+
+
+					</div>
+					<a href="#why"><div class="line_down"><img src="img/line_down.png" alt=""></div></a>
+				</div>
+				<div class="header_content__right">
+					<img src="img/shiba_art.png" alt="">
+				</div>	
+			</div>
+		</div>	
+	</header>
+	<section class="why" id="why">
+			<div class="container">
+				<div class="why_title" data-aos="fade-up">
+					<span>Why</span>  Super Shiba?
+				</div>
+				<div class="why__article">
+					 
+					<article class="why__article__item" data-aos="fade-right">
+						<div class="why__article__item_img">
+							<img src="img/why_1.png" alt="">
+						</div>
+						<div class="why__article__item_content">
+							<div class="why__article__item_content__title" data-aos="fade-up">Pure security of trust</div>
+							<div class="why__article__item_content__text" data-aos="fade-up">
+							We believe that honesty with holders is essential for growth so we our team will make
+							everything as transparent as possible to ensure our investors that everything is clear.
+							We have renounced ownership of the contract and locked the funds in the liquidity pool,
+							the token is rug-proof because it has no owner. <span class="why_step1">It will exist forever on BSC, unaltered.</span>
+							So rest easy, knowing that funds are very very safu.</div>
+						</div>
+					</article>
+					
+
+
+					<article class="why__article__item" data-aos="fade-left">
+						<div class="why__article__item_img">
+							<img src="img/why_2.png" alt="">
+						</div>
+						<div class="why__article__item_content">
+							<div class="why__article__item_content__title" data-aos="fade-up">Charity donation</div>
+							<div class="why__article__item_content__text" data-aos="fade-up">
+							3% of tax goes charity donation to homeless dogs.
+							We're working with our partner <span class="why_step2">DogsTrust</span> (<a href="#">https://www.dogstrust.org.uk/donation/</a>).
+							Your kind donations help to provide life changing care and forever homes for over 14,000 of
+							our furry friends. We really appreciate your support and dogs do appreciate too.</div>
+						</div>
+					</article>
+					
+
+
+					<article class="why__article__item" data-aos="fade-right">
+						<div class="why__article__item_img">
+							<img src="img/why_3.png" alt="">
+						</div>
+						<div class="why__article__item_content">
+							<div class="why__article__item_content__title" data-aos="fade-up">Smart deflationary mechanism 
+								to prevent price dump </div>
+							<div class="why__article__item_content__text" data-aos="fade-up">
+							In the first 7 days after the launch, there will be an increased
+							commission for the sale in order to avoid a price drop due to bots.
+							Also  we're working on the new dump prevention system. Moreover in the
+							<span class="why_step3">first 30 days 1%</span>of tokens will be burned to pump token's price. </div>
+						</div>
+					</article>
+					<article class="why__article__item" data-aos="fade-left">
+						<div class="why__article__item_img">
+							<img src="img/why_4.png" alt="">
+						</div>
+						<div class="why__article__item_content">
+							<div class="why__article__item_content__title" data-aos="fade-up">Sustainable Development</div>
+							<div class="why__article__item_content__text" data-aos="fade-up">70% of pre-sale BNB will be add to liquidity and locked by DxSale <span class="why_step4">for 15 years</span></div>
+						</div>
+					</article>
+				</div>
+			<div>
+	</section>
+	<section class="roadmap">
+		<div class="container">
+			<div class="roadmap_title" id="roadmap">Roadmap</div>
+
+			<div class="roadmap_content">
+				<div class="roadmap_content_item">
+					<div class="roadmap_content_item__date" data-aos="fade-up">June 2021</div>
+					<div class="roadmap_content_item__image"><img src="img/roadmap_1.png" alt=""></div>
+					<div class="roadmap_content_item__list" data-aos="fade-up">
+						<div>Launch</div>
+						<ul>
+							<li>$SUPERSHIBA Launch</li>
+							<li>Reddit, twitter and TikTok promotion</li>
+							<li>First Airdrop</li>
+							<li>Influencer Marketing</li>
+							<li>Community AMA</li>
+							<li>Community Contests</li>
+							<li>PancakeSwap Logo</li>
+							<li>Second Airdrop</li>
+						</ul>
+					</div>
+				</div>
+				<div class="roadmap_content_item">
+					<div class="roadmap_content_item__date" data-aos="fade-up">Jule 2021</div>
+					<div class="roadmap_content_item__image"><img src="img/roadmap_2.png" alt=""></div>
+					<div class="roadmap_content_item__list" data-aos="fade-up">
+						<div>SuperShiba App Launch</div>
+						<ul>
+							<li>Charity platform</li>
+							<li>CoinGecko Listing</li>
+							<li>CoinMarketCap Listing</li>
+							<li>Third Airdrop</li>
+							<li>Web 2.0 Improvements</li>
+							<li>Community Merch</li>
+							<li>Major Influencer Partnership</li>
+							<li>CEX Listing</li>
+						</ul>
+					</div>	
+				</div>
+				<div class="roadmap_content_item">
+					<div class="roadmap_content_item__date" data-aos="fade-up">Aug-Sep<br>2021</div>
+					<div class="roadmap_content_item__image"><img src="img/roadmap_3.png" alt=""></div>
+					<div class="roadmap_content_item__list" data-aos="fade-up">
+						<div>APP v2</div>
+						<ul>
+							<li>DEX Beta Launch</li>
+							<li>More Airdrops</li>
+							<li>Community Charity Voting</li>
+							<li>BSC Token Tracking</li>
+							<li>Web 3.0 App</li>
+							<li>Community YT Contests</li>
+						</ul>
+					</div>
+				</div>
+				<div class="roadmap_content_item">
+					<div class="roadmap_content_item__date" data-aos="fade-up">Q4 2021</div>
+					<div class="roadmap_content_item__image"><img src="img/roadmap_4.png" alt=""></div>
+					<div class="roadmap_content_item__list" data-aos="fade-up">
+						<div>APP v3</div>
+						<ul>
+							<li>Cross Chain Exploration</li>
+							<li>Privacy Payment Rail</li>
+							<li>And Even More Airdrops</li>
+							<li>Global Visibility Media Campaign</li>
+						</ul>
+					</div>
+				</div>
+				<div class="roadmap_content_item__last" data-aos="fade-up">
+					<div></div>
+					<div>More coming up...</div>
+					<div></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="tokenomics" id="tokenomics">
+		<div class="container">
+			<div class="tokenomics_title" data-aos="fade-in"><span>Tokeno</span>mics</div>
+			<div class="tokenomics_circle"><img src="img/tokenomics_circle.png" alt=""></div>
+			<div class="tokenomics_circle circle_tablet"><img src="img/tokenomics_circle_tablet.png" alt=""></div>
+			<div class="tokenomics_circle circle_mobile"><img src="img/tokenomics_circle_mobile.png" alt=""></div>
+			<div class="tokenomics_trillion">1 trillion $SUPERSHIBA (1,000,000,000,000)</div>
+
+			<ul class="tokenomics_info_mobile">
+				<li><div style="background-color:#F8AD32;"></div>Burn <b> (40%)</b></li>
+				<li><div style="background-color:#E58E01;"></div>Presale <b> (30%)</b></li>
+				<li><div style="background-color:#F89C06;"></div>Liquidity Pool <b> (20%)</b></li>
+				<li><div style="background-color:#FFC25F;"></div>Airdrops & rewarding <b> (4%)</b> </li>
+				<li><div style="background-color:#FFD185;"></div>Dev & Marketing <b> (3%)</b> </li>
+				<li><div style="background-color:#FFE1AF;"></div>Charity <b> (3%)</b></li>
+			</ul>
+
+			<div class="tokenomics_boxes">
+				<div class="tokenomics_boxes__item" data-aos="fade-right">
+					<div class="tokenomics_boxes__item__title"><img src="img/three-coin-stacks.png" alt="">	Token Breakdown:</div>
+					<ul class="tokenomics_boxes__item__list" data-aos="fade-up">
+						<li>* 30% Presale - <b>300 B</b></li>
+						<li>* 20% Liquidity Pool - <b>200 B</b></li>
+						<li>* 40% Burn - <b>400 B</b></li>
+						<li>* 3% Charity contributions - <b>30 B</b></li>
+						<li>* 4% Airdrops and rewarding - <b>40 B</b></li>
+						<li>* 3% Dev expenses and sustained Marketing - <b>30 B</b></li>
+
+					</ul>
+				</div>
+				<div class="tokenomics_boxes__item" data-aos="fade-left">
+					<div class="tokenomics_boxes__item__title" data-aos="fade-in"><img src="img/taxes.png" alt="">Taxes:</div>
+					<ul class="tokenomics_boxes__item__list" data-aos="fade-up">
+						<li><b>SuperShiba Wallet Tax</b> — 4% of each transaction auto-locked in liquidity on Pancakeswap</li>
+						<li><b>SuperShiba Treat Tax</b> — 4%  of each transaction redistributed to all SUPERSHIBA holders</li>
+						<li><b>SuperShiba Burning Tax</b> — 1% of each transaction thrown into deep hole.</li>
+						<li><b>SuperShiba Promotion Tax</b> — 1% of each transaction go towards the marketing wallet</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer_content">
+				<img src="img/shiba_art_footer.png" class="footer_content__shiba" alt="">
+				<div class="footer_content_copy">2021 © Copyright Super Shiba</div>
+				<ul class="footer_content_menu">
+					<li class="footer_content_menu__item"><a href="#" class="footer_content_menu__item__link">Telegram</a></li>
+					<li class="footer_content_menu__item"><a href="#" class="footer_content_menu__item__link">Twitter</a></li>
+					<li class="footer_content_menu__item"><a href="#" class="footer_content_menu__item__link">Contract</a></li>
+					<li class="footer_content_menu__item"><a href="#" class="footer_content_menu__item__link">DxSale</a></li>
+					<li class="footer_content_menu__item"><a href="#" class="footer_content_menu__item__link">Whitepapper</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+
+
+		function openNav() {
+			document.getElementById("myNav").style.width = "100%";
+		}
+
+
+		function closeNav() {
+			document.getElementById("myNav").style.width = "0%";
+		}
+
+
+	</script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+
+
+	$(document).ready(function(){
+		$(window).scroll(function(){
+			const shibaOffset = $('.footer_content__shiba').offset().top;
+			const scrolled = $(this).scrollTop();
+	
+			console.log(shibaOffset);
+			console.log(scrolled);
+
+			if (scrolled + 400 > shibaOffset) {
+		
+				
+				$('.footer_content__shiba').css({left: "200px",right: "auto"}); 
+			} else if (scrolled < shibaOffset){
+				$('.footer_content__shiba').css({left: "auto",right: "100px"}); 
+			}
+		});
+	});
+
+	let links = document.querySelectorAll('.overlay-content a');
+links.forEach((item) => {
+item.addEventListener("click", (e) => {
+closeNav();
+});
+});
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
